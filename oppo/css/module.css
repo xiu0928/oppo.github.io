@@ -1,0 +1,229 @@
+/*模块*/
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+a,p,span{
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+ul,li,ol{
+	list-style: none;
+}
+.clearfix::after{
+    content: ".";
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    visibility: hidden;
+}
+/*:nth-child(4)*/
+
+.header{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	z-index: 99;
+	background: rgba(0,0,0,0);
+}
+.header-con{
+	width: 1200px;
+	margin: 0 auto;
+}
+.header .logo{
+	width:146px ;
+	float: left;
+	margin-right: 50px;
+}
+.header .logo a{
+	font-size: 30px;
+	line-height: 20px;
+}
+.header .nav ul li{
+	float: left;
+	width: 100px;
+}
+.nav{
+	float: left;
+	width: 800px;
+}
+.nav>ul{
+	width: 500px;
+	float: left;
+}
+.nav-h{
+	width: 300px;
+	float: right;
+}
+.nav-h a{
+	transition: color 0.35s ease;
+}
+.nav-h a:hover{
+	color: #ACACAC;
+}
+.nav-h li{
+	text-align: center;
+}
+.header .nav>ul>li>a{
+	display: block;
+	width: 100px;
+	text-align: center;
+}
+.header .nav ul li .navpopup{
+	display: block;
+	position: absolute;
+	height: 0px;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #fff;
+	z-index: -2;
+	text-align: center;
+	overflow: hidden;
+	opacity:0;
+}
+.products>a:hover{
+	color: #ACACAC;
+}
+.header .nav ul li ul{
+	text-align: center;
+	margin-top: 90px;
+}
+.header .nav ul li ul li{
+	width: 200px;
+	height: 200px;
+	float: none;
+	display: inline-block;
+	position: relative;
+}
+.header .nav ul li ul li a{
+	position: absolute;
+	transition: all 1s;
+	display: block;
+	width: 200px;
+	text-align: center;
+	visibility: hidden;
+	opacity: 0;
+	transform: matrix(1, 0, 0, 1, 0, 18);
+}
+.header .nav ul li ul li a img{
+	width: 100px;
+}
+.header .nav ul li ul li a h3{
+	color: #000000;
+	line-height: 0px;
+}
+
+.opacity{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.1);
+	z-index: 2;
+	display: none;
+}
+.commodity{
+	position: relative;
+	float: right;
+	width: 20px;
+}
+.commodity i{
+	color: #fff;
+	font-size: 23px;
+	font-weight: 600;
+	transition: color 0.35s ease;
+	cursor: pointer;
+}
+.commodity i:hover{
+	color: #ACACAC;
+}
+.footer{
+	width: 100%;
+	height: 466px;
+}
+.foot-con{
+	width: 1200px;
+	margin: 0 auto;
+}
+.foot-tit{
+	width: 100%;
+	margin-top: 30px;
+	border-bottom: 1px solid #ccc;
+	height: 350px;
+}
+.foot-left{
+	float: left;
+}
+.foot-left>ul>li{
+	float: left;
+	width: 120px;
+	margin-right: 20px;
+}
+.foot-left>ul>li>a{
+	font-size: 15px;
+	color: #333;
+}
+.foot-left>ul>li>ul>li>a:hover{
+	color: #ACACAC;
+}
+.foot-left a{
+	color: #666;
+	transition: color 0.35s ease;
+	font-size: 13px;
+}
+.foot-left>ul>li>ul>li{
+	margin: 10px 0;
+}
+.foot-right{
+	float: right;
+	text-align: right;
+}
+.foot-right a{
+	display: block;
+	width: 173px;
+	height: 53px;
+	line-height: 53px;
+	text-align: center;
+	background-color: #666;
+	margin-bottom: 20px;
+	transition: background-color 0.35s ease;
+	border-radius: 26.5px;
+	font-size: 14px;
+}
+.foot-right a:hover{
+	background-color: #464646;
+}
+.foot-right h3{
+	font-size: 20px;
+	font-weight: normal;
+	color: #333;
+	margin: 0 0 10px 0;
+}
+.foot-right p{
+	font-size: 14px;
+	color: #828282;
+}
+.foot-foot{
+	width: 100%;
+	margin-top: 30px;
+	height: 20px;
+}
+.foot-foot p,.foot-foot span{
+	color: #98979A;
+	font-size: 12px;
+	line-height: 25px;
+}
+.foot-foot span{
+	float: left;
+}
+.foot-foot img{
+	float: left;
+	margin: 2px 0 0 6px;
+}

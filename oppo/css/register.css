@@ -1,0 +1,209 @@
+input::-webkit-input-safebox-button{display:none;}
+input:focus {
+    outline:none;
+}
+body{
+	background: #fff;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+}
+.header .nav{
+	width:894px;
+	height: 30px;
+	margin: 0 auto;
+}
+.header .nav ul{
+	width:500px;
+	float: left;
+}
+.header .nav ul li{
+	float: left;
+	width: 100px;
+}
+.header .nav ul li a,.header p{
+	font-family: MyriadPro-Regular;
+	height: 55px;
+	line-height: 55px;
+	font-size: 14px;
+	color: #7f7f7f;
+}
+.header .nav .nav-r{
+	float: right;
+}
+.content{
+	width: 442px;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 38px;
+	height: 610px;
+}
+.content>p{
+	font-family: MyriadPro-Semibold;
+	font-size: 20px;
+	color: #000;
+	line-height: 20px;
+	height: 20px;
+	text-align: center;
+	font-weight: 700;
+	padding-top: 70px;
+	padding-bottom: 20px;
+}
+.zoneinput{
+	position: relative;
+	width: 342px;
+	margin: 9px auto;
+}
+.password .pass2 .error-p,.error-p{
+	width: 342px;
+	margin: 6px auto 12px;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: red;
+	opacity: 1;
+}
+.agreements .error-p{
+	text-align: center;
+}
+.zoneinput input{
+	display: block;
+	width: 100%;
+	height: 48px;
+	line-height: 1x;
+	margin: 0 auto;
+	background: #f7f7f7;
+	border-radius: 9px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	text-indent: 16px;
+	font-size: 14px;
+	color: #000;
+}
+input{
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.input input {
+    display: block;
+    width: 100%;
+    height: 48px;
+    line-height: 1;
+    margin: 0 auto;
+    background: #f7f7f7;
+    border-radius: 9px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-indent: 16px;
+    font-size: 14px;
+    color: #000;
+}
+.codewrap{
+	position: relative;
+	width: 342px;
+	margin: 9px auto;
+}
+.codewrap input {
+    width: 210px;
+    margin: 0;
+}
+.input-code {
+    position: absolute;
+    height: 48px;
+    line-height: 48px;
+    min-width: 120px;
+    padding: 0 8px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+    border: 1px solid #2ad181;
+    background-color: #2ad181;
+    border-radius: 9px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.button {
+	margin-top: 37px;
+    position: relative;
+    display: block;
+    width: 342px;
+    height: 48px;
+    line-height: 48px;
+    margin: 9px auto;
+    margin-top: 9px;
+    opacity: 1;
+	cursor: not-allowed;
+    text-align: center;
+    background-color: #2ad181;
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+    color: #fff;
+    white-space: nowrap;
+    -webkit-appearance: none;
+    cursor: pointer;
+    -webkit-transition: .1s;
+    transition:all .1s;
+}
+.button:hover{
+	opacity: .8;
+}
+.password{
+	position: relative;
+	width: 342px;
+	margin: 9px auto;
+}
+.pass1,.pass2{
+	position: relative;
+	margin: 15px auto;
+}
+.password p{
+	width: 342px;
+	margin: 6px auto 12px;
+	opacity: .4;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: #000;
+}
+.password i{
+	display: block;
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	top: 13px;
+	right: 13px;
+	background: url(../img/index.png) no-repeat scroll 50%;
+	background-size: contain;
+	cursor: pointer;
+}
+.footer{
+	width: 100%;
+	text-align: center;
+}
+.footer p{
+	text-align: center;
+	font-family: MyriadPro-Regular;
+	font-size: 12px;
+	color: #9b9b9b;
+}
